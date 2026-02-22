@@ -30,8 +30,7 @@ const Header = () => {
               <span className="text-accent-foreground font-bold text-xl">SMAZ</span>
             </div>
             <div className="flex flex-col item-center justify-between">
-            <span className="text-cream font-bold text-xl hidden sm:block">Smaz quantum </span>
-            <span className="text-cream font-bold text-xl hidden sm:block">horizon limited</span>
+            <span className="text-cream font-bold text-xl hidden sm:block">SMAZ TECH & FACILITY MANAGEMENT</span>
             </div>
           </Link>
 

@@ -5,36 +5,36 @@ import { Link } from "react-router-dom";
 const blogPosts = [
   {
     id: 1,
-    slug: "modern-facility-management-trends-2024",
-    title: "Modern Facility Management Trends Shaping 2024",
-    excerpt: "Discover the latest innovations in facility management, from IoT integration to sustainable practices that are transforming how businesses operate.",
-    image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=400&fit=crop",
-    author: "James Mitchell",
-    date: "January 5, 2024",
-    readTime: "5 min read",
-    category: "Facility Management"
+    slug: "electronics-manufacturing-quality-control",
+    title: "Quality Control in Electronics Manufacturing",
+    excerpt: "Best practices for ensuring product quality and reliability in electronics manufacturing, from component selection to final testing.",
+    image: "https://images.unsplash.com/photo-1518770660439-4636190af475?w=600&h=400&fit=crop",
+    author: "David Park",
+    date: "December 10, 2023",
+    readTime: "8 min read",
+    category: "Manufacturing"
   },
   {
     id: 2,
-    slug: "electrical-safety-standards-commercial-buildings",
-    title: "Essential Electrical Safety Standards for Commercial Buildings",
-    excerpt: "A comprehensive guide to electrical safety compliance and best practices for maintaining safe commercial and industrial environments.",
-    image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=600&h=400&fit=crop",
-    author: "Sarah Chen",
-    date: "December 28, 2023",
-    readTime: "7 min read",
-    category: "Electrical Systems"
+    slug: "property-maintenance-winter-checklist",
+    title: "Essential Property Maintenance Winter Checklist",
+    excerpt: "Prepare your commercial property for winter with this comprehensive maintenance checklist covering HVAC, plumbing, and structural concerns.",
+    image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=600&h=400&fit=crop",
+    author: "Emily Watson",
+    date: "November 28, 2023",
+    readTime: "4 min read",
+    category: "Property Management"
   },
   {
     id: 3,
-    slug: "sustainable-renovation-practices",
-    title: "Sustainable Renovation Practices for Modern Offices",
-    excerpt: "How eco-friendly renovation strategies can reduce costs, improve employee wellbeing, and contribute to your company's sustainability goals.",
-    image: "https://images.unsplash.com/photo-1497366811353-6870744d04b2?w=600&h=400&fit=crop",
-    author: "Michael Torres",
-    date: "December 15, 2023",
-    readTime: "6 min read",
-    category: "Renovation"
+    slug: "smart-building-automation-guide",
+    title: "Complete Guide to Smart Building Automation",
+    excerpt: "Explore how smart building technologies can optimize energy usage, enhance security, and improve occupant comfort in commercial spaces.",
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=600&h=400&fit=crop",
+    author: "James Mitchell",
+    date: "November 15, 2023",
+    readTime: "10 min read",
+    category: "Technology"
   }
 ];
 

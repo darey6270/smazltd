@@ -82,10 +82,10 @@ const About = () => {
               About Us
             </span>
             <h1 className="text-4xl md:text-5xl font-bold text-cream mb-6">
-              Building Excellence Since 1999
+              Building Excellence Since 2017
             </h1>
             <p className="text-lg text-cream/80">
-              Smaz quantum horizon limited (SQH Limited) is a leading multi-service industrial company delivering 
+              SMAZ TECH & FACILITY MANAGEMENT  is a leading multi-service industrial company delivering 
               comprehensive solutions across facility management, construction, and manufacturing.
             </p>
           </div>
@@ -120,7 +120,7 @@ const About = () => {
               </h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  Founded in 1999, Smaz quantum horizon limited (SQH Limited) began as a small facility management company 
+                  Founded in 2017, SMAZ TECH & FACILITY MANAGEMENT  began as a small facility management company 
                   with a vision to transform how businesses approach their operational needs. 
                   Over the decades, we've grown into a comprehensive industrial solutions provider.
                 </p>
@@ -136,7 +136,7 @@ const About = () => {
                 </p>
               </div>
             </div>
-            <div className="relative">
+            {/* <div className="relative">
               <div className="bg-gradient-to-br from-primary to-primary/80 rounded-2xl p-8 shadow-elegant">
                 <Award className="w-16 h-16 text-amber mb-6" />
                 <h3 className="text-2xl font-bold text-cream mb-4">
@@ -151,7 +151,7 @@ const About = () => {
                   ))}
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

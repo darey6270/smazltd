@@ -7,7 +7,7 @@ export default function ChatSupport() {
   const [messages, setMessages] = useState([
     {
       type: 'bot',
-      text: 'Hello! Welcome to Smaz quantum horizon limited (SQH Limited). How can I help you today?',
+      text: 'Hello! Welcome to SMAZ TECH & FACILITY MANAGEMENT. How can I help you today?',
       time: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })
     }
   ]);
@@ -47,7 +47,7 @@ export default function ChatSupport() {
 
   const handleWhatsApp = () => {
     const phoneNumber = '++2348189613430';
-    const message = encodeURIComponent('Hi, I\'m interested in Smaz quantum horizon limited (SQH Limited)\'s construction services. Can you provide more information?');
+    const message = encodeURIComponent('Hi, I\'m interested in SMAZ TECH & FACILITY MANAGEMENT \'s construction services. Can you provide more information?');
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
     window.open(whatsappUrl, '_blank');
   };
@@ -84,7 +84,7 @@ export default function ChatSupport() {
                 <MessageCircle className="w-5 h-5 text-amber-600" />
               </div>
               <div>
-                <h3 className="text-white font-bold">Smaz quantum horizon limited (SQH Limited) Support</h3>
+                <h3 className="text-white font-bold">SMAZ TECH & FACILITY MANAGEMENT  Support</h3>
                 <p className="text-amber-100 text-xs">We typically reply in minutes</p>
               </div>
             </div>

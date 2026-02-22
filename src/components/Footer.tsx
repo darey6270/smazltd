@@ -6,7 +6,6 @@ const Footer = () => {
 
   const footerLinks = {
     services: [
-      { label: "Facility Management", href: "#services" },
       { label: "Property Renovation", href: "#services" },
       { label: "General Contracting", href: "#services" },
       { label: "Manufacturing", href: "#services" },
@@ -37,20 +36,20 @@ const Footer = () => {
                           <span className="text-accent-foreground font-bold text-xl">SMAZ</span>
                         </div>
                         <div className="flex flex-col item-center justify-between">
-                        <span className="text-cream font-bold text-xl hidden sm:block">Smaz quantum </span>
-                        <span className="text-cream font-bold text-xl hidden sm:block">horizon limited</span>
+                        <span className="text-cream font-bold text-xl hidden sm:block">SMAZ TECH &  </span>
+                        <span className="text-cream font-bold text-xl hidden sm:block">FACILITY MANAGEMENT</span>
                         </div>
               </Link>
             <p className="text-cream/60 text-sm">
               Your trusted partner in facility management, construction, 
-              and electrical solutions. Building excellence since 2009.
+              and electrical solutions. Building excellence since 2017.
             </p>
             <div className="flex items-center gap-4">
               <div className="w-12 h-12 rounded-lg bg-cream/10 flex items-center justify-center">
                 <Building2 className="w-5 h-5 text-amber" />
               </div>
               <div className="text-sm">
-                <div className="text-cream/60">ISO 9001 Certified</div>
+                {/* <div className="text-cream/60">ISO 9001 Certified</div> */}
                 <div className="text-amber font-semibold">Quality Assured</div>
               </div>
             </div>
@@ -111,7 +110,7 @@ const Footer = () => {
         {/* Bottom Bar */}
         <div className="border-t border-cream/10 mt-12 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-cream/60 text-sm">
-            © {currentYear} Smaz quantum horizon limited (SQH Limited). All rights reserved.
+            © 2025 Smaz quantum horizon limited. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
             <a href="#" className="text-cream/60 hover:text-amber transition-colors text-sm">

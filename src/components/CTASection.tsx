@@ -50,10 +50,10 @@ const CTASection = () => {
               <div className="text-3xl font-bold text-amber">24/7</div>
               <div className="text-cream/60 text-sm">Support Available</div>
             </div>
-            <div className="text-center">
+            {/* <div className="text-center">
               <div className="text-3xl font-bold text-amber">ISO</div>
               <div className="text-cream/60 text-sm">Certified Quality</div>
-            </div>
+            </div> */}
             <div className="text-center">
               <div className="text-3xl font-bold text-amber">Free</div>
               <div className="text-cream/60 text-sm">Initial Consultation</div>

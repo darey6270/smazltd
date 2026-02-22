@@ -12,11 +12,6 @@ const reasons = [
     description: "We understand time is money. Our projects are completed within agreed timelines.",
   },
   {
-    icon: Award,
-    title: "Industry Certified",
-    description: "ISO certified and recognized by leading industry bodies for excellence.",
-  },
-  {
     icon: Users,
     title: "Expert Team",
     description: "200+ skilled professionals with decades of combined experience.",

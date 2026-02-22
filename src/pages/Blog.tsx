@@ -9,28 +9,6 @@ import ChatSupport from "@/components/ChatSupport";
 
 const allPosts = [
   {
-    id: 1,
-    slug: "modern-facility-management-trends-2024",
-    title: "Modern Facility Management Trends Shaping 2024",
-    excerpt: "Discover the latest innovations in facility management, from IoT integration to sustainable practices that are transforming how businesses operate.",
-    image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=600&h=400&fit=crop",
-    author: "James Mitchell",
-    date: "January 5, 2024",
-    readTime: "5 min read",
-    category: "Facility Management"
-  },
-  {
-    id: 2,
-    slug: "electrical-safety-standards-commercial-buildings",
-    title: "Essential Electrical Safety Standards for Commercial Buildings",
-    excerpt: "A comprehensive guide to electrical safety compliance and best practices for maintaining safe commercial and industrial environments.",
-    image: "https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=600&h=400&fit=crop",
-    author: "Sarah Chen",
-    date: "December 28, 2023",
-    readTime: "7 min read",
-    category: "Electrical Systems"
-  },
-  {
     id: 3,
     slug: "sustainable-renovation-practices",
     title: "Sustainable Renovation Practices for Modern Offices",
@@ -39,7 +17,7 @@ const allPosts = [
     author: "Michael Torres",
     date: "December 15, 2023",
     readTime: "6 min read",
-    category: "Renovation"
+    category: "Property Renovation"
   },
   {
     id: 4,
@@ -76,7 +54,7 @@ const allPosts = [
   }
 ];
 
-const categories = ["All", "Facility Management", "Electrical Systems", "Renovation", "Manufacturing", "Property Management", "Technology"];
+const categories = ["All", "Property Renovation", "Manufacturing", "Property Management", "Technology"];
 
 const Blog = () => {
   const [searchTerm, setSearchTerm] = useState("");
