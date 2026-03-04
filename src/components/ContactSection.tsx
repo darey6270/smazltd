@@ -52,8 +52,8 @@ const ContactSection = () => {
                 <div>
                   <h4 className="font-semibold text-foreground mb-1">Headquarters</h4>
                   <p className="text-muted-foreground">
-                    123 Business District, Suite 500<br />
-                    New York, NY 10001
+                    29 Ajeniya Street ikoyi obalende,<br />
+                    Lagos State, Nigeria
                   </p>
                 </div>
               </div>

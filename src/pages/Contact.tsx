@@ -20,7 +20,7 @@ const contactInfo = [
   {
     icon: MapPin,
     title: "Our Location",
-    details: ["123 Industrial Avenue", "Business District", "Metro City, MC 12345"],
+    details: ["29 Ajeniya Street", "ikoyi obalende,", "Lagos State, Nigeria"],
   },
   {
     icon: Phone,
@@ -246,7 +246,8 @@ const Contact = () => {
                 <div className="text-center text-muted-foreground">
                   <MapPin className="w-12 h-12 mx-auto mb-2 opacity-50" />
                   <p>Interactive Map</p>
-                  <p className="text-sm">123 Industrial Avenue, Metro City</p>
+                  <p className="text-sm">29 Ajeniya Street ikoyi obalende,<br />
+                    Lagos State, Nigeria</p>
                 </div>
               </div>
             </div>

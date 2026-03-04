@@ -11,7 +11,7 @@ const HeroSection = () => {
         <img
           src={heroImage}
           alt="Industrial construction site"
-          className="w-full h-full object-cover"
+          className="w-full h-full object-fill"
         />
         <div className="absolute inset-0 bg-overlay" />
       </div>
