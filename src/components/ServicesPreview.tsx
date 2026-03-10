@@ -10,7 +10,7 @@ const featuredServices = [
   },
   {
     icon: Wrench,
-    title: "Property Management",
+    title: "Property Renovation",
     description: "Full-scale renovation and general contracting for commercial and industrial properties.",
   },
   {

@@ -6,11 +6,11 @@ const Footer = () => {
 
   const footerLinks = {
     services: [
+      { label: "Facility Management", href: "#services" },
       { label: "Property Renovation", href: "#services" },
       { label: "General Contracting", href: "#services" },
       { label: "Manufacturing", href: "#services" },
       { label: "Import & Export", href: "#services" },
-      { label: "Electrical Solutions", href: "#services" },
     ],
     company: [
       { label: "About Us", href: "/about" },
@@ -41,8 +41,8 @@ const Footer = () => {
                         </div>
               </Link>
             <p className="text-cream/60 text-sm">
-              Your trusted partner in facility management, construction, 
-              and electrical solutions. Building excellence since 2017.
+              Your trusted partner in facility management, property renovation, 
+              and general contractor. Building excellence since 2017.
             </p>
             <div className="flex items-center gap-4">
               <div className="w-12 h-12 rounded-lg bg-cream/10 flex items-center justify-center">

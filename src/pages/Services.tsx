@@ -46,10 +46,8 @@ const services = [
     title: "Electrical & Electronics",
     description: "Manufacturing, assembly, and distribution of electrical and electronic components and systems.",
     features: [
-      "Custom Manufacturing",
       "Component Assembly",
       "Quality Testing",
-      "Import & Export Services",
       "Distribution Networks",
       "Technical Support"
     ],
