@@ -25,12 +25,12 @@ const contactInfo = [
   {
     icon: Phone,
     title: "Phone Numbers",
-    details: ["+2348189613430", "+2348189613430"],
+    details: ["+2348106311895"],
   },
   {
     icon: Mail,
     title: "Email Addresses",
-    details: ["info@smazltd.com", "support@smazltd.com"],
+    details: ["smazltd@hotmail.com"],
   },
   {
     icon: Clock,
@@ -132,7 +132,7 @@ const Contact = () => {
                       name="name"
                       value={formData.name}
                       onChange={handleChange}
-                      placeholder="John Doe"
+                      placeholder="Faith Johnson"
                       required
                     />
                   </div>
@@ -145,7 +145,7 @@ const Contact = () => {
                       name="email"
                       value={formData.email}
                       onChange={handleChange}
-                      placeholder="john@example.com"
+                      placeholder="johnson@example.com"
                       required
                     />
                   </div>
@@ -160,7 +160,7 @@ const Contact = () => {
                       name="phone"
                       value={formData.phone}
                       onChange={handleChange}
-                      placeholder="+1 (555) 123-4567"
+                      placeholder="+2348156231234"
                     />
                   </div>
                   <div>

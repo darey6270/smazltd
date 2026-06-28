@@ -1,6 +1,6 @@
 import { Building2 } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
-
+import Logo from "@/assets/Logo.png";
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -15,10 +15,9 @@ const Footer = () => {
     company: [
       { label: "About Us", href: "/about" },
       { label: "Our Services", href: "/services" },
-      { label: "Our Blog", href: "/blog" },
     ],
     support: [
-      { label: "Contact", href: "#contact" },
+      { label: "Contact", href: "/contact" },
       { label: "FAQ", href: "#" },
       { label: "Privacy Policy", href: "#" },
       { label: "Terms of Service", href: "#" },
@@ -32,14 +31,27 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-6">
             <Link to="/" className="flex items-center gap-3">
-                        <div className="w-24 h-20 rounded-lg gradient-accent flex items-center justify-center">
-                          <span className="text-accent-foreground font-bold text-xl">SMAZ</span>
-                        </div>
-                        <div className="flex flex-col item-center justify-between">
-                        <span className="text-cream font-bold text-xl hidden sm:block">SMAZ TECH &  </span>
-                        <span className="text-cream font-bold text-xl hidden sm:block">FACILITY MANAGEMENT</span>
-                        </div>
-              </Link>
+  
+  {/* Logo Image */}
+  <div className="flex-shrink-0">
+    <img
+      src={Logo}
+      alt="SMAZ Tech & Facility Management Logo"
+      className="w-20 h-16 sm:w-24 sm:h-20 object-contain"
+    />
+  </div>
+
+  {/* Company Name */}
+  <div className="flex flex-col justify-center">
+    <span className="text-cream font-bold text-sm sm:text-lg lg:text-xl leading-tight hidden sm:block">
+      SMAZ TECH & FACILITY
+    </span>
+
+    <span className="text-cream/70 text-xs sm:text-sm hidden md:block">
+       MANAGEMENT
+    </span>
+  </div>
+</Link>
             <p className="text-cream/60 text-sm">
               Your trusted partner in facility management, property renovation, 
               and general contractor. Building excellence since 2017.
@@ -49,7 +61,7 @@ const Footer = () => {
                 <Building2 className="w-5 h-5 text-amber" />
               </div>
               <div className="text-sm">
-                {/* <div className="text-cream/60">ISO 9001 Certified</div> */}
+                <div className="text-cream/60"><span className="text-amber font-semibold">RC Number</span>:9392166</div>
                 <div className="text-amber font-semibold">Quality Assured</div>
               </div>
             </div>

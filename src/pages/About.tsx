@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import MissionSection from  "@/components/MissionSection";
 import { 
   Award, 
   Users, 
@@ -25,22 +26,37 @@ const values = [
   {
     icon: Target,
     title: "Excellence",
-    description: "We pursue the highest standards in every project, ensuring quality outcomes that exceed expectations.",
+    description: "Excellence drives everything we do. We are committed to delivering high-quality facility management services through skilled teams, efficient processes, and continuous improvement. Our focus on professionalism, reliability, safety, and client satisfaction ensures we consistently exceed expectations and provide outstanding value in every service we deliver.",
   },
   {
     icon: Shield,
     title: "Integrity",
-    description: "Honesty and transparency guide our business practices, building trust with every client partnership.",
+    description: "Integrity is a fundamental principle that guides every aspect of our operations. We conduct our business with honesty, transparency, accountability, and professionalism, ensuring that we consistently uphold the trust placed in us by our clients, employees, and stakeholders. We are committed to ethical practices, compliance with regulations, and delivering our services with fairness and responsibility, fostering long-term relationships built on confidence and mutual respect.",
   },
   {
     icon: Users,
     title: "Collaboration",
-    description: "We work closely with clients and partners to deliver solutions that truly meet their needs.",
+    description: "At SMAZ Limited, we believe that successful facility management is built on strong collaboration. We work closely with our clients, stakeholders, suppliers, and team members to ensure seamless service delivery and effective problem-solving. Through open communication, mutual respect, and a shared commitment to excellence, we foster productive partnerships that enhance operational efficiency, support client objectives, and deliver sustainable value.",
   },
   {
     icon: TrendingUp,
     title: "Innovation",
-    description: "Embracing new technologies and methods to stay ahead and provide cutting-edge solutions.",
+    description: "we embrace innovation to improve facility management services through modern technologies, efficient processes, and smart solutions. Our commitment to continuous improvement and creative problem-solving helps us enhance service quality, reduce operational costs, and deliver more effective and sustainable outcomes for our clients.",
+  },
+   {
+    icon: Users,
+    title: "Customer Satisfaction",
+    description: "Clients are at the center of everything we do",
+  },
+  {
+    icon: Users,
+    title: "Professionalism",
+    description: "We deliver services with competence and excellence",
+  },
+  {
+    icon: TrendingUp,
+    title: "Reliability",
+    description: "We uphold honesty and transparency",
   },
 ];
 
@@ -110,51 +126,96 @@ const About = () => {
         </div>
       </section>
 
-      {/* Story Section */}
-      <section className="py-20">
-        <div className="section-container">
-          <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-                Our Story
-              </h2>
-              <div className="space-y-4 text-muted-foreground">
-                <p>
-                  Founded in 2017, SMAZ TECH & FACILITY MANAGEMENT  began as a small facility management company 
-                  with a vision to transform how businesses approach their operational needs. 
-                  Over the decades, we've grown into a comprehensive industrial solutions provider.
-                </p>
-                <p>
-                  Today, we serve clients across multiple industries, from commercial real estate 
-                  to manufacturing, offering integrated services that span the entire lifecycle 
-                  of their facilities and equipment.
-                </p>
-                <p>
-                  Our success is built on a foundation of technical expertise, unwavering commitment 
-                  to quality, and deep understanding of our clients' needs. We don't just provide 
-                  services—we build lasting partnerships.
-                </p>
-              </div>
+      
+{/* Story Section */}
+<section className="py-20 relative overflow-hidden">
+  <div className="section-container">
+    <div className="grid lg:grid-cols-2 gap-14 lg:gap-20 items-center">
+      
+      {/* Left Content */}
+      <div>
+        <span className="inline-block px-4 py-2 rounded-full bg-amber/10 text-amber text-sm font-semibold mb-5">
+          Who We Are
+        </span>
+
+        <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-foreground mb-6 leading-tight">
+          Our Story
+        </h2>
+
+        <div className="space-y-5 text-muted-foreground text-sm sm:text-base leading-relaxed">
+          <p>
+            Founded in 2020, SMAZ Integrated Facility Management began as a
+            small but ambitious facility management company with a clear vision:
+            to redefine how businesses manage and maintain their operational
+            environments.
+          </p>
+
+          <p>
+            Over the years, we have grown into a trusted provider of integrated
+            facility management solutions, supporting clients across multiple
+            industries. Our services are designed to cover the full spectrum of
+            facility needs, ensuring smooth, safe, and efficient operations.
+          </p>
+
+          <p>
+            At SMAZ Integrated Facility Management, we believe in building
+            lasting partnerships founded on trust, professionalism, and
+            performance. Our journey continues with a commitment to innovation,
+            excellence, and continuous improvement.
+          </p>
+        </div>
+
+        {/* Certifications */}
+        {/* <div className="mt-8 grid sm:grid-cols-2 gap-4">
+          {certifications.map((cert, index) => (
+            <div
+              key={index}
+              className="flex items-center gap-3 bg-muted/40 border border-border rounded-xl px-4 py-3"
+            >
+              <div className="w-3 h-3 rounded-full bg-amber flex-shrink-0" />
+              <span className="text-sm text-foreground font-medium">
+                {cert}
+              </span>
             </div>
-            {/* <div className="relative">
-              <div className="bg-gradient-to-br from-primary to-primary/80 rounded-2xl p-8 shadow-elegant">
-                <Award className="w-16 h-16 text-amber mb-6" />
-                <h3 className="text-2xl font-bold text-cream mb-4">
-                  Certified Excellence
-                </h3>
-                <ul className="space-y-3">
-                  {certifications.map((cert, index) => (
-                    <li key={index} className="flex items-center gap-3 text-cream/80">
-                      <div className="w-2 h-2 bg-amber rounded-full" />
-                      {cert}
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </div> */}
+          ))}
+        </div> */}
+
+
+      </div>
+
+      {/* Right Image */}
+      <div className="relative w-full">
+        
+        {/* Background Glow */}
+        <div className="absolute -top-10 -right-10 w-40 h-40 bg-amber/20 rounded-full blur-3xl" />
+        <div className="absolute -bottom-10 -left-10 w-52 h-52 bg-teal/20 rounded-full blur-3xl" />
+
+        {/* Main Image */}
+        <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-border bg-card">
+          <img
+            src="https://images.unsplash.com/photo-1581092919535-7146ff1a590b?q=80&w=1200&auto=format&fit=crop"
+            alt="Facility Management"
+            className="w-full h-[300px] sm:h-[400px] lg:h-[550px] object-cover transition-transform duration-700 hover:scale-105"
+          />
+
+          {/* Overlay Card */}
+          <div className="absolute bottom-4 left-4 right-4 bg-background/80 backdrop-blur-md border border-border rounded-2xl p-4 sm:p-5 shadow-lg">
+            <h3 className="text-lg sm:text-xl font-bold text-foreground mb-2">
+              Trusted Facility Experts
+            </h3>
+
+            <p className="text-sm text-muted-foreground leading-relaxed">
+              Delivering reliable integrated facility management solutions with
+              professionalism, innovation, and operational excellence.
+            </p>
           </div>
         </div>
-      </section>
+      </div>
+    </div>
+  </div>
+</section>
+```
+
 
       {/* Values Section */}
       <section className="py-20 bg-muted/30">
@@ -189,30 +250,8 @@ const About = () => {
       </section>
 
       {/* Mission Section */}
-      <section className="py-20">
-        <div className="section-container">
-          <div className="grid md:grid-cols-2 gap-12">
-            <div className="bg-primary rounded-2xl p-8">
-              <Target className="w-12 h-12 text-amber mb-4" />
-              <h3 className="text-2xl font-bold text-cream mb-4">Our Mission</h3>
-              <p className="text-cream/80">
-                To deliver exceptional industrial solutions that empower businesses to 
-                operate efficiently, sustainably, and profitably. We combine technical 
-                expertise with innovative approaches to solve complex challenges.
-              </p>
-            </div>
-            <div className="bg-primary rounded-2xl p-8">
-              <Clock className="w-12 h-12 text-amber mb-4" />
-              <h3 className="text-2xl font-bold text-cream mb-4">Our Vision</h3>
-              <p className="text-cream/80">
-                To be the most trusted partner for integrated industrial services, 
-                recognized for our commitment to excellence, innovation, and 
-                sustainable practices that create lasting value for our clients.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+      <MissionSection />
+  
 
       <WhyUsSection />
 

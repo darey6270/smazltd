@@ -4,27 +4,27 @@ const reasons = [
   {
     icon: Shield,
     title: "Quality Guaranteed",
-    description: "Every project meets international standards with our rigorous quality control processes.",
+    description: "We are committed to delivering high-quality facility management services through established procedures, skilled personnel, regular inspections, and continuous performance monitoring. Our quality assurance approach ensures compliance with industry standards, enhances operational efficiency, promotes safety, and maintains client satisfaction. By continuously evaluating and improving our processes, we strive to provide reliable, cost-effective, and professional services that consistently meet and exceed customer expectations.",
   },
   {
     icon: Clock,
     title: "On-Time Delivery",
-    description: "We understand time is money. Our projects are completed within agreed timelines.",
+    description: "We are committed to delivering all facility management services on time through effective planning, efficient resource management and proactive monitoring. Our focus on reliability and responsiveness ensures that tasks are completed within agreed timelines, minimizing disruptions and maintaining client satisfaction.",
   },
   {
     icon: Users,
     title: "Expert Team",
-    description: "200+ skilled professionals with decades of combined experience.",
+    description: "Our expert team is made up of skilled and experienced professionals dedicated to delivering high-quality facility management services. Through continuous training, teamwork, and technical expertise, we ensure efficient operations, reliable service delivery, and consistent client satisfaction.",
   },
   {
     icon: HeadphonesIcon,
-    title: "24/7 Support",
-    description: "Round-the-clock customer support to address your needs anytime.",
+    title: "24/7 operational Support",
+    description: "We provide reliable 24/7 support to ensure uninterrupted facility management services at all times. Our dedicated team is always available to respond quickly to emergencies and service requests, ensuring continuous operations, minimal/no downtime, and maximum client confidence.",
   },
   {
     icon: TrendingUp,
     title: "Proven Results",
-    description: "98% client satisfaction rate with measurable business impact.",
+    description: "We have a proven track record of delivering measurable results in facility management through efficient operations, skilled teams, and structured processes. Our focus on performance monitoring, continuous improvement, and client satisfaction ensures consistent service quality, reduced downtime, and reliable value delivery.",
   },
 ];
 
@@ -49,7 +49,7 @@ const WhyUsSection = () => {
             Why Choose Us
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-cream mb-6">
-            The ProBuild{" "}
+            The SMAZ{" "}
             <span className="text-gradient">Advantage</span>
           </h2>
           <p className="text-cream/70 text-lg">

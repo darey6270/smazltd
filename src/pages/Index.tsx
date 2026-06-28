@@ -3,11 +3,11 @@ import HeroSection from "@/components/HeroSection";
 import PartnersSection from "@/components/PartnersSection";
 import ServicesPreview from "@/components/ServicesPreview";
 import StatsSection from "@/components/StatsSection";
-import TestimonialsSection from "@/components/TestimonialsSection";
 import BlogSection from "@/components/BlogSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
 import ChatSupport from "@/components/ChatSupport";
+import TeamsSection from "@/components/TeamsSection";
 
 const Index = () => {
   return (
@@ -18,7 +18,7 @@ const Index = () => {
         {/* <PartnersSection /> */}
         <ServicesPreview />
         {/* <StatsSection /> */}
-        {/* <TestimonialsSection /> */}
+        <TeamsSection />
         {/* <BlogSection /> */}
         <CTASection />
       </main>

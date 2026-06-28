@@ -2,19 +2,22 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
+import Logo from "@/assets/Logo.png";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const location = useLocation();
 
   const navLinks = [
-    { label: "Home", href: "/" },
+    { label: "Home", href: "/" ,},
     { label: "Services", href: "/services" },
     { label: "About", href: "/about" },
     // { label: "Blog", href: "/blog" },
     { label: "Contact", href: "/contact" },
   ];
 
+
+  
   const isActive = (href: string) => {
     if (href === "/") return location.pathname === "/";
     return location.pathname.startsWith(href);
@@ -25,14 +28,28 @@ const Header = () => {
       <div className="section-container">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-3">
-            <div className="w-24 h-20 rounded-lg gradient-accent flex items-center justify-center">
-              <span className="text-accent-foreground font-bold text-xl">SMAZ</span>
-            </div>
-            <div className="flex flex-col item-center justify-between">
-            <span className="text-cream font-bold text-xl hidden sm:block">SMAZ TECH & FACILITY MANAGEMENT</span>
-            </div>
-          </Link>
+<Link to="/" className="flex items-center gap-3">
+  
+  {/* Logo Image */}
+  <div className="flex-shrink-0">
+    <img
+      src={Logo}
+      alt="SMAZ Tech & Facility Management Logo"
+      className="w-20 h-16 sm:w-24 sm:h-20 object-contain"
+    />
+  </div>
+
+  {/* Company Name */}
+  <div className="flex flex-col justify-center">
+    <span className="text-cream font-bold text-sm sm:text-lg lg:text-xl leading-tight hidden sm:block">
+      SMAZ TECH & FACILITY MANAGEMENT
+    </span>
+
+    <span className="text-cream/70 text-xs sm:text-sm hidden md:block">
+      Integrated Industrial Solutions
+    </span>
+  </div>
+</Link>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-8">
