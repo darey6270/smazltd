@@ -145,16 +145,8 @@ const Services = () => {
             <span className="inline-flex items-center gap-2 px-5 py-2 bg-amber/20 text-amber rounded-full text-sm font-semibold mb-6 border border-amber/30">
               Our Services
             </span>
-
-            <h1 className="text-4xl md:text-6xl font-bold text-cream leading-tight mb-6">
-              Comprehensive
-              <span className="text-amber"> Industrial Solutions</span>
-            </h1>
-
             <p className="text-lg md:text-xl text-cream/80 leading-relaxed">
-              We provide world-class facility management, engineering,
-              maintenance, and operational support services designed to improve
-              efficiency, safety, and business performance.
+              SMAZ Integrated Facility Management Limited is your trusted partner for reliable,efficient, and professional facility management solutions. We take pride in delivering excellence that keep your environment safe, functional, and productive.
             </p>
           </div>
         </div>

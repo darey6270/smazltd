@@ -139,7 +139,7 @@ const About = () => {
         </span>
 
         <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-foreground mb-6 leading-tight">
-          Our Story
+          About Us
         </h2>
 
         <div className="space-y-5 text-muted-foreground text-sm sm:text-base leading-relaxed">
